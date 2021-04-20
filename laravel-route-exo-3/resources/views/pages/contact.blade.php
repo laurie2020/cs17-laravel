@@ -8,11 +8,11 @@
 </head>
 <body>
     <nav>
-        <button><a href={{ route("about") }}>About</a></button>
-        <button><a href={{ route("contact") }}>Contact</a></button>
+        <button><a href="/contact/laurie/iula/20">Contact</a></button>
+        <button><a href="/about/laurie">About</a></button>
     </nav>
     <h1>Nom: {{ $nom }}</h1>
     <h2>Prenom: {{ $prenom }}</h2>
-    <h3>Tel: {{ $tel }}</h3>
+    <h3>Age: {{ $age }}</h3>
 </body>
 </html>

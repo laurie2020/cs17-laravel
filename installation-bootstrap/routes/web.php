@@ -16,11 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get("/about/{prenom}", function($prenom){
-    return view("pages.about", compact("prenom"));
-});
-
-Route::get("/contact/{nom}/{prenom}/{age}", function($nom, $prenom, $age){
-    return view("pages.contact", compact("nom", "prenom", "age"));
-});

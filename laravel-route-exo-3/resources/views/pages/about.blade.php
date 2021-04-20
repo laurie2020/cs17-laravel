@@ -8,9 +8,9 @@
 </head>
 <body>
     <nav>
-        <button><a href={{ route("about") }}>About</a></button>
-        <button><a href={{ route("contact") }}>Contact</a></button>
+        <button><a href="/contact/laurie/iula/20">Contact</a></button>
+        <button><a href="/about/laurie">About</a></button>
     </nav>
-    <h1>Fruit: {{ $fruit }}</h1>
+    <h1>Fruit: {{ $prenom }}</h1>
 </body>
 </html>
