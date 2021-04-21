@@ -35,7 +35,7 @@
     </nav>
     <section class="d-flex justify-content-center align-items-center flex-column" style="height: 85vh;" >
         @foreach ($fruits as $fruit)
-            <h2 style="width: 100px;">{{ $loop->index }}.{{ $fruit }}</h2>
+            <h2>{{ $fruit }}</h2>
         @endforeach
     </section>
     
