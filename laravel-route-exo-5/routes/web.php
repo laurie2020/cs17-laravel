@@ -19,5 +19,23 @@ Route::get('/', function () {
     $objet->prenom = "Laurie";
     $objet->age = 20;
     $objet->dateDeNaissance = "13/06/2000";
-    return view('welcome', compact("objet"));
+    return view("welcome", compact("objet"));
 });
+
+
+Route::get("/{route}", function($route){
+    
+    if (is_numeric($route)) {
+        $objet = new stdClass();
+        $objet->nom = "Iula";
+        $objet->prenom = "Laurie";
+        $objet->age = 20;
+        $objet->dateDeNaissance = "13/06/2000";
+    return view("welcome", compact("objet"));
+    } else {
+        return view("erreur");
+    }
+    
+    
+});
+
