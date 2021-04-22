@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.bread{
+    background-color: rgb(187, 187, 187);
+    padding: 10px 10px 1px 10px;
+    border-radius: 5px;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+
+.about{
+    padding: 0 10%;
+}
+
+.service{
+    margin-top: 100px;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
