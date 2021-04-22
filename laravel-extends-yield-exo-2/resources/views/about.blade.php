@@ -1,6 +1,8 @@
 @extends('layout.app')
 
 @section('content')
+    @include('partials.nav')
+    @include('partials.info')
     <section class="about">
         <div class="mb-3 d-flex">
             <img src={{ asset("img/about-img.jpg") }} class="rounded float-start" alt="..." width="500">
@@ -12,4 +14,5 @@
             </div>
         </div>
     </section>
+    @include('partials.footer')
 @endsection
