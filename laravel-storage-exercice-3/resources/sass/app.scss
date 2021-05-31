@@ -1,0 +1,149 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import "./fonts";
+
+#home{
+    text-decoration: none;
+    color: $blue;
+}
+#home:hover{
+    border-radius: 5px;
+    background-color: $blue;
+    color: white;
+}
+
+#users{
+    text-decoration: none;
+    color: $purple;
+}
+#users:hover{
+    border-radius: 5px;
+    background-color: $purple;
+    color: white;
+}
+
+
+#caracteristiques{
+    text-decoration: none;
+    color: $pink;
+}
+#caracteristiques:hover{
+    border-radius: 5px;
+    background-color: $pink;
+    color: white;
+}
+
+
+#galeries{
+    text-decoration: none;
+    color: $red;
+}
+#galeries:hover{
+    border-radius: 5px;
+    background-color: $red;
+    color: white;
+}
+
+
+#portfolios{
+    text-decoration: none;
+    color: $orange;
+}
+#portfolios:hover{
+    border-radius: 5px;
+    background-color: $orange;
+    color: white;
+}
+
+
+#services{
+    text-decoration: none;
+    color: $yellow;
+}
+#services:hover{
+    border-radius: 5px;
+    background-color: $yellow;
+    color: white;
+}
+
+ul {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.home-title {
+    color: $green;
+    margin-top: 200px;
+    font-size: 5rem;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    
+}
+
+.list-group {
+    padding: 0;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 1.5rem;
+}
+.form-select {
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+
+i {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.car-title {
+    color: $pink;
+}
+.car-btn {
+    background-color: $pink;
+    color: white;
+    padding: 10px;
+}
+.galerie-title {
+    color: $red;
+}
+.galerie-btn {
+    background-color: $red;
+}
+.service-title{
+    color: $yellow;
+}
+.portfolio-title {
+    color: $orange;
+}
+.portfolio-btn {
+    background-color: $orange;
+    color: white;
+    padding: 10px;
+}
+
+.service-btn {
+    background-color: $yellow;
+    color: white;
+}
+
+@import './nav';
+@import './all.scss'
+

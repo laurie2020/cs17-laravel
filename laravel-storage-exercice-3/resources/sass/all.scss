@@ -1,0 +1,145 @@
+.all {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 85%;
+    background-image: url('../../public/img/style/all-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.all-child {
+    background-color: #4e8cb691;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    min-height: 100%;
+}
+
+.tab {
+    background-color: white;
+    border-radius: 5px;
+    min-width: 80%;
+    border: 3px solid #4e0e31;
+    padding: 15px;
+    margin: 0;
+
+}
+.title {
+    font-family: "Bebas Neue";
+    color: #4E0E31;
+    font-size: 4rem;
+    transform: scale(1.4, 1);
+}
+
+.subtitle {
+    font-family: "Bebas Neue";
+    color: #4E0E31;
+    font-size: 2rem;
+    
+}
+
+th {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.all i {
+    font-size: 1rem;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+}
+.actions button,
+.actions a {
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+}
+
+// Download
+.download {
+    border: 2px solid $green;
+}
+.download i{
+    color: $green;
+}
+.download:hover{
+    border-color: darkgreen;
+}
+.download i:hover{
+    color: darkgreen;
+}
+
+//Edit
+.edit {
+    border: 2px solid $orange;
+}
+.edit i{
+    color: $orange;
+}
+.edit:hover{
+    border-color: orangered;
+}
+.edit i:hover{
+    color: orangered;
+}
+
+// Delete
+.delete {
+    border: 2px solid $red;
+}
+.delete i{
+    color: $red;
+}
+.delete:hover{
+    border-color: darkred;
+}
+.delete i:hover{
+    color: darkred;
+}
+
+// Create
+.create {
+    border: 3px solid $purple;
+    width: 50px;
+}
+.create i{
+    color: $purple;
+    font-size: 1.5rem;
+}
+.create:hover{
+    border-color: purple;
+}
+.create i:hover{
+    color: purple;
+}
+
+.form {
+    width: 80%;
+}
+.form-btn {
+    background-color: #4E0E31;
+    color: white;
+    height: 50px;
+}
+
+select, option{
+    color: #4E0E31;
+}
+
+.galerie .tab {
+    width: 90%;
+}
+
+.service .tab {
+    width: 90%;
+}
+
